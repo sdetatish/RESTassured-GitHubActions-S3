@@ -34,8 +34,6 @@ jobs:
    #step 3 : Setup Maven
     - name: Set Maven
       uses: s4u/setup-maven-action@v1.9.0
-      with:
-        maven-version: 3.8.9
 
     
     - name: Build with Maven
